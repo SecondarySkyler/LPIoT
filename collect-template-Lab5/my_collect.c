@@ -146,6 +146,11 @@ bc_recv(struct broadcast_conn *bc_conn, const linkaddr_t *sender)
       linkaddr_copy(&conn->parent, sender);
       printf("my_collect: new parent %02x:%02x, my metric %d, my seqn %d\n", 
         sender->u8[0], sender->u8[1], conn->metric, conn->beacon_seqn);
+    } else if (beacon.seqn == conn->beacon_seqn && beacon.metric < conn->metric) {
+      conn->metric = beacon.metric + 1;
+      linkaddr_copy(&conn->parent, sender);
+      printf("my_collect: new parent %02x:%02x, my metric %d, my seqn %d\n", 
+        sender->u8[0], sender->u8[1], conn->metric, conn->beacon_seqn);
     }
   }
 
