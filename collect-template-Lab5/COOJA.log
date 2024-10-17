@@ -1,0 +1,20 @@
+[11:40:57 - main] [Cooja.java:1317] [INFO] - > Starting Cooja
+[11:40:57 - main] [Cooja.java:2858] [INFO] - External tools default settings: /external_tools_linux_64.config
+[11:40:57 - main] [Cooja.java:2888] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[11:40:58 - main] [Cooja.java:4263] [WARN] - Replaced [APPS_DIR]/collect-view with /home/user/cooja/apps/collect-view (default: /home/user/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[11:40:58 - main] [Cooja.java:3627] [WARN] - Loaded simulation may depend on not found  extension: '/home/user/cooja/apps/collect-view'
+[11:40:58 - main] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:58 - main] [MspMote.java:235] [INFO] - Loading firmware from: /media/sf_teaching/wsn_2024/lab_code/2024/lab5-6/collect-template-Lab5/app.sky
+[11:40:59 - main] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[11:40:59 - main] [TimeLine.java:567] [INFO] - Zoom level: 50000.0 microseconds/pixel 
+[11:41:00 - Thread-1] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1729158060470
+[11:41:12 - Thread-1] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1729158072048	Duration: 11578 ms	Simulated time 450957 ms	Ratio 38.94947313871135
