@@ -147,6 +147,7 @@ bc_recv(struct broadcast_conn *bc_conn, const linkaddr_t *sender)
       printf("my_collect: new parent %02x:%02x, my metric %d, my seqn %d\n", 
         sender->u8[0], sender->u8[1], conn->metric, conn->beacon_seqn);
     }
+  }
 
   /* TO DO 4:
    * IF the seqn and/or the metric have been updated, retransmit *after a small, random 
